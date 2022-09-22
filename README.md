@@ -7,4 +7,3 @@ All projects are made by myself while learning python from udemy python course b
 
 Current level / next steps:
 - Improve knowledge about Pandas library
-- learn about GUI and API
