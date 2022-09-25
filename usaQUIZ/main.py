@@ -35,11 +35,8 @@ guessed_states = []
 x = 0
 
 # states not guessed
-states_to_learn = []
 def states_not_guessed():
-    for element in states:
-        if element not in guessed_states:
-            states_to_learn.append(element)
+    states_to_learn = [element for element in states if element not in guessed_states]
     dict_to_learn = {
         "states": states_to_learn
     }
