@@ -15,8 +15,8 @@ sign_click.click()
 email = driver.find_element(By.XPATH, '//*[@id="username"]')
 password = driver.find_element(By.XPATH, '//*[@id="password"]')
 
-email.send_keys("kamiladaszewski@gmail.com")
-password.send_keys("Elok1234")
+email.send_keys("your-email")
+password.send_keys("yourpassword")
 
 time.sleep(2)
 
